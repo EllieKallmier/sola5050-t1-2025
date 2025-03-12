@@ -2667,159 +2667,9 @@
                 "CustomerType": "Residential",
                 "Date_accessed": "2024-12",
                 "Distributor": "CitiPower",
-                "Name": "Time of Use (CitiPower) Residential",
+                "Name": "Block FiT (CitiPower) Residential",
                 "State": "VIC",
-                "Type": "ToU",
-                "Year": "2024",
-                "ProviderType": "Retailer",
-                "Provider": "EnergyAustralia",
-                "Tariff ID": "VIC_FiT_Structure_1",
-                "Parameters": {
-                    "FiT_TOU": {
-                        "Peak Weekdays": {
-                            "Month": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
-                            "TimeIntervals": {
-                                "T1": [
-                                    "16:00:00",
-                                    "21:00:00"
-                                ]
-                            },
-                            "Unit": "$/kWh",
-                            "Value": 0.084,
-                            "Weekday": true,
-                            "Weekend": false
-                        },
-                        "Shoulder Weekdays": {
-                            "Month": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
-                            "TimeIntervals": {
-                                "T1": [
-                                    "21:00:00",
-                                    "10:00:00"
-                                ],
-                                "T2": [
-                                    "14:00:00",
-                                    "16:00:00"
-                                ]
-                            },
-                            "Unit": "$/kWh",
-                            "Value": 0.041,
-                            "Weekday": true,
-                            "Weekend": false
-                        },
-                        "Off Peak Weekdays": {
-                            "Month": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
-                            "TimeIntervals": {
-                                "T1": [
-                                    "10:00:00",
-                                    "14:00:00"
-                                ]
-                            },
-                            "Unit": "$/kWh",
-                            "Value": 0.021,
-                            "Weekday": true,
-                            "Weekend": false
-                        },
-                        "Shoulder Weekend": {
-                            "Month": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
-                            "TimeIntervals": {
-                                "T1": [
-                                    "21:00:00",
-                                    "10:00:00"
-                                ]
-                            },
-                            "Unit": "$/kWh",
-                            "Value": 0.041,
-                            "Weekday": false,
-                            "Weekend": true
-                        },
-                        "Off Peak Weekend": {
-                            "Month": [
-                                1,
-                                2,
-                                3,
-                                4,
-                                5,
-                                6,
-                                7,
-                                8,
-                                9,
-                                10,
-                                11,
-                                12
-                            ],
-                            "TimeIntervals": {
-                                "T1": [
-                                    "10:00:00",
-                                    "14:00:00"
-                                ]
-                            },
-                            "Unit": "$/kWh",
-                            "Value": 0.021,
-                            "Weekday": false,
-                            "Weekend": true
-                        }
-                    }
-                }
-            },
-            {
-                "CustomerType": "Residential",
-                "Date_accessed": "2024-12",
-                "Distributor": "CitiPower",
-                "Name": "Single Rate (CitiPower) Residential",
-                "State": "VIC",
-                "Type": "Single Rate",
+                "Type": "Feed in Tariff",
                 "Year": "2024",
                 "ProviderType": "Retailer",
                 "Provider": "EnergyAustralia",
@@ -2843,9 +2693,9 @@
                 "CustomerType": "Residential",
                 "Date_accessed": "2024-12",
                 "Distributor": "CitiPower",
-                "Name": "Time of Use (CitiPower) Residential",
+                "Name": "Time of Use FiT (CitiPower) Residential",
                 "State": "VIC",
-                "Type": "ToU",
+                "Type": "Feed in Tariff",
                 "Year": "2024",
                 "ProviderType": "Retailer",
                 "Provider": "EnergyAustralia",
@@ -4721,9 +4571,9 @@
                 "CustomerType": "Residential",
                 "Date_accessed": "2024-12",
                 "Distributor": "EvoEnergy",
-                "Name": "Single Rate (EvoEnergy) Residential",
+                "Name": "Block FiT (EvoEnergy) Residential",
                 "State": "ACT",
-                "Type": "Single Rate",
+                "Type": "Feed in Tariff",
                 "Year": "2024",
                 "ProviderType": "Retailer",
                 "Provider": "ActewAGL",
@@ -4747,9 +4597,9 @@
                 "CustomerType": "Residential",
                 "Date_accessed": "2024-12",
                 "Distributor": "Essential Energy",
-                "Name": "Single Rate (Essential Energy) Residential",
+                "Name": "Block FiT (Essential Energy) Residential",
                 "State": "ACT",
-                "Type": "Single Rate",
+                "Type": "Feed in Tariff",
                 "Year": "2024",
                 "ProviderType": "Retailer",
                 "Provider": "ActewAGL",
@@ -4785,6 +4635,10 @@
                         "Value": 1.132,
                         "Unit": "$/Day"
                     },
+                    "FiT": {
+                        "Value": 0.022,
+                        "Unit": "$/kWh"
+                    },
                     "FlatRate": {
                         "Value": 0.316,
                         "Unit": "$/kWh"
@@ -4807,6 +4661,10 @@
                         "Value": 1.132,
                         "Unit": "$/Day"
                     },
+                    "FiT": {
+                        "Value": 0.03,
+                        "Unit": "$/kWh"
+                    },
                     "FlatRate": {
                         "Value": 0.316,
                         "Unit": "$/kWh"
@@ -4828,6 +4686,10 @@
                     "Daily": {
                         "Value": 1.261,
                         "Unit": "$/Day"
+                    },
+                    "FiT": {
+                        "Value": 0.022,
+                        "Unit": "$/kWh"
                     },
                     "TOU": {
                         "Peak Weekdays": {
@@ -5005,6 +4867,10 @@
                         "Value": 1.998,
                         "Unit": "$/Day"
                     },
+                    "FiT": {
+                        "Value": 0.022,
+                        "Unit": "$/kWh"
+                    },
                     "BlockDaily": {
                         "Block1": {
                             "Value": 0.33,
@@ -5034,6 +4900,10 @@
                     "Daily": {
                         "Value": 1.998,
                         "Unit": "$/Day"
+                    },
+                    "FiT": {
+                        "Value": 0.03,
+                        "Unit": "$/kWh"
                     },
                     "BlockDaily": {
                         "Block1": {
@@ -5065,6 +4935,10 @@
                         "Value": 2.021,
                         "Unit": "$/Day"
                     },
+                    "FiT": {
+                        "Value": 0.022,
+                        "Unit": "$/kWh"
+                    },
                     "BlockDaily": {
                         "Block1": {
                             "Value": 0.315,
@@ -5095,6 +4969,10 @@
                         "Value": 2.021,
                         "Unit": "$/Day"
                     },
+                    "FiT": {
+                        "Value": 0.03,
+                        "Unit": "$/kWh"
+                    },
                     "BlockDaily": {
                         "Block1": {
                             "Value": 0.315,
@@ -5124,6 +5002,10 @@
                     "Daily": {
                         "Value": 3.78,
                         "Unit": "$/Day"
+                    },
+                    "FiT": {
+                        "Value": 0.022,
+                        "Unit": "$/kWh"
                     },
                     "TOU": {
                         "Peak Weekdays": {
@@ -9640,6 +9522,162 @@
                         }
                     }
                 }
+            },
+            {
+                "Distributor": "Western Power",
+                "Name": "Time of Use FiT (Western Power) Residential",
+                "Parameters": {
+                    "FiT_TOU": {
+                        "Off-Peak All Week": {
+                            "TimeIntervals": {
+                                "T1": [
+                                    "21:00",
+                                    "15:00"
+                                ]
+                            },
+                            "Unit": "$/kWh",
+                            "Value": 0.022,
+                            "Weekday": true,
+                            "Weekend": true
+                        },
+                        "Peak All Week": {
+                            "TimeIntervals": {
+                                "T1": [
+                                    "15:00",
+                                    "21:00"
+                                ]
+                            },
+                            "Unit": "$/kWh",
+                            "Value": 0.11,
+                            "Weekday": true,
+                            "Weekend": true
+                        }
+                    }
+                },
+                "State": "WA",
+                "Type": "Feed in Tariff",
+                "Year": 2024,
+                "Tariff ID": "WA_FiT_Structure_1",
+                "ProviderType": "Retailer",
+                "CustomerType": "Residential",
+                "Provider": "Synergy"
+            },
+            {
+                "Distributor": "Horizon Power",
+                "CustomerType": "Residential",
+                "Name": "Time of Use FiT (Horizon Power) Residential",
+                "Parameters": {
+                    "FiT_TOU": {
+                        "Off-Peak All Week": {
+                            "TimeIntervals": {
+                                "T1": [
+                                    "21:00",
+                                    "15:00"
+                                ]
+                            },
+                            "Unit": "$/kWh",
+                            "Value": 0.033,
+                            "Weekday": true,
+                            "Weekend": true
+                        },
+                        "Peak All Week": {
+                            "TimeIntervals": {
+                                "T1": [
+                                    "15:00",
+                                    "21:00"
+                                ]
+                            },
+                            "Unit": "$/kWh",
+                            "Value": 0.11,
+                            "Weekday": true,
+                            "Weekend": true
+                        }
+                    }
+                },
+                "State": "WA",
+                "Type": "Feed in Tariff",
+                "Year": 2024,
+                "Tariff ID": "WA_FiT_Structure_3",
+                "ProviderType": "Retailer",
+                "Provider": "Horizon Power"
+            },
+            {
+                "Distributor": "Western Power",
+                "Name": "Time of Use FiT (Western Power) Business",
+                "Parameters": {
+                    "FiT_TOU": {
+                        "Off-Peak All Week": {
+                            "TimeIntervals": {
+                                "T1": [
+                                    "21:00",
+                                    "15:00"
+                                ]
+                            },
+                            "Unit": "$/kWh",
+                            "Value": 0.022,
+                            "Weekday": true,
+                            "Weekend": true
+                        },
+                        "Peak All Week": {
+                            "TimeIntervals": {
+                                "T1": [
+                                    "15:00",
+                                    "21:00"
+                                ]
+                            },
+                            "Unit": "$/kWh",
+                            "Value": 0.11,
+                            "Weekday": true,
+                            "Weekend": true
+                        }
+                    }
+                },
+                "State": "WA",
+                "Type": "Feed in Tariff",
+                "Year": 2024,
+                "Tariff ID": "WA_FiT_Structure_2",
+                "ProviderType": "Retailer",
+                "CustomerType": "SmallBusiness",
+                "Provider": "Synergy"
+            },
+            {
+                "Distributor": "Horizon Power",
+                "CustomerType": "SmallBusiness",
+                "Name": "Time of Use FiT (Horizon Power) Business",
+                "Parameters": {
+                    "FiT_TOU": {
+                        "Off-Peak All Week": {
+                            "TimeIntervals": {
+                                "T1": [
+                                    "21:00",
+                                    "15:00"
+                                ]
+                            },
+                            "Unit": "$/kWh",
+                            "Value": 0.033,
+                            "Weekday": true,
+                            "Weekend": true
+                        },
+                        "Peak All Week": {
+                            "TimeIntervals": {
+                                "T1": [
+                                    "15:00",
+                                    "21:00"
+                                ]
+                            },
+                            "Unit": "$/kWh",
+                            "Value": 0.11,
+                            "Weekday": true,
+                            "Weekend": true
+                        }
+                    }
+                },
+                "State": "WA",
+                "Type": "Feed in Tariff",
+                "Year": 2024,
+                "Tariff ID": "WA_FiT_Structure_4",
+                "ProviderType": "Retailer",
+                "Provider": "Horizon Power"
             }
         ]
     }
